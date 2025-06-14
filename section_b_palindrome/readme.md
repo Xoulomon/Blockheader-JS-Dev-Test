@@ -23,19 +23,6 @@ A simple and beautiful web app that checks whether a given sentence is a palindr
 - CSS3 
 - JavaScript (Vanilla)
 
----
-
-## 📂 Folder Structure
-project-root/
-├── img
-|     └── favicon.png
-├── script
-|     └── index.js
-├── style
-|     └── style.css
-├── index.html
-└── README.md
-
 
 ✍️ Author
 Made with ❤️ by Xoulomon

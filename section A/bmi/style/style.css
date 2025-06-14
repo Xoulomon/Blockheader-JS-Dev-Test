@@ -1,0 +1,144 @@
+:root {
+  --primary: #4CAF50;
+  --danger: #e53935;
+  --neutral: #f5f5f5;
+  --light-bg: #eef9f1;
+  --text: #333;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: var(--neutral);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px var(--shadow);
+  max-width: 550px;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  color: var(--primary);
+}
+
+.info-box {
+  background-color: var(--light-bg);
+  color: var(--text);
+  padding: 16px 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 48%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+button:first-child {
+  background-color: var(--primary);
+}
+
+button:first-child:hover {
+  background-color: #43a047;
+}
+
+button:last-child {
+  background-color: var(--danger);
+}
+
+button:last-child:hover {
+  background-color: #d32f2f;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.error {
+  color: var(--danger);
+  font-size: 0.95em;
+  text-align: center;
+}
+
+#image-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#bmi-image, #bmi-chart {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow);
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bmi-image {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .info-box {
+    font-size: 0.95rem;
+  }
+}

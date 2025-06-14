@@ -25,24 +25,5 @@ A lightweight and interactive BMI (Body Mass Index) calculator built with HTML, 
 - CSS3
 - JavaScript (Vanilla)
 
----
-
-## 📂 Folder Structure
-project-root/
-├── img
-|     ├── BMI.png
-|     ├── normal.png
-|     ├── obese.png
-|     ├── underweight.png
-|     ├── overweight.png
-|     └── favicon.png
-├── script
-|     └── index.js
-├── style
-|     └── style.css
-├── index.html
-└── README.md
-
-
 ✍️ Author
 Made with ❤️ by Xoulomon
